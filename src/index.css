@@ -1,13 +1,48 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.banner{
+    background-color: #FC7A1D ;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.logo img{
+   width: 100%;
+}
+    .linebar{
+        width: Fixed (1,440px)px;
+        height: Hug (112px)px;
+        padding: 40px 112px 40px 112px;
+        gap: 40px;
+        opacity: 0px;
+        background-color: #FC7A1D;
+}
+    .linelogo{
+        justify-content: space-between;
+        display: flex  
+           
+}
+
+.women img{
+    width: 100%;
+}
+
+.woman {
+    background-image: url('./img/screeshot.svg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.dfs {
+    position: absolute;
+    top: 40%;
+    left: 60%;
 }
